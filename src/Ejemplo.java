@@ -199,6 +199,367 @@ public class Ejemplo {
                 .append("posiciones", posicionesVanDeBeek);
         jugadores.add(jugador10);
 
+     // Jugador 11: Iago Aspas (Celta)
+        List<String> equiposAspas = new ArrayList<>();
+        equiposAspas.add("Celta");
+        equiposAspas.add("Liverpool");
+        equiposAspas.add("Sevilla");
+        equiposAspas.add("Celta");
+
+        List<String> posicionesAspas = new ArrayList<>();
+        posicionesAspas.add("Delantero");
+        posicionesAspas.add("Extremo Derecho");
+
+        Document jugador11 = new Document("nombre", "Iago Aspas")
+                .append("nacionalidad", "España")
+                .append("edad", 37)
+                .append("equipos", equiposAspas)
+                .append("posiciones", posicionesAspas);
+        jugadores.add(jugador11);
+
+        // Jugador 12: Takefusa Kubo (Real Sociedad)
+        List<String> equiposKubo = new ArrayList<>();
+        equiposKubo.add("Tokyo");
+        equiposKubo.add("Real Madrid");
+        equiposKubo.add("Mallorca"); // Cesión
+        equiposKubo.add("Real Sociedad");
+
+        List<String> posicionesKubo = new ArrayList<>();
+        posicionesKubo.add("Extremo Derecho");
+        posicionesKubo.add("Mediapunta");
+
+        Document jugador12 = new Document("nombre", "Takefusa Kubo")
+                .append("nacionalidad", "Japón")
+                .append("edad", 23)
+                .append("equipos", equiposKubo)
+                .append("posiciones", posicionesKubo);
+        jugadores.add(jugador12);
+
+        // Jugador 13: Alexander Sørloth (Atlético de Madrid)
+        List<String> equiposSorloth = new ArrayList<>();
+        equiposSorloth.add("Crystal Palace");
+        equiposSorloth.add("RB Leipzig");
+        equiposSorloth.add("Villarreal");
+        equiposSorloth.add("Atlético de Madrid");
+
+        List<String> posicionesSorloth = new ArrayList<>();
+        posicionesSorloth.add("Delantero");
+
+        Document jugador13 = new Document("nombre", "Alexander Sørloth")
+                .append("nacionalidad", "Noruega")
+                .append("edad", 29)
+                .append("equipos", equiposSorloth)
+                .append("posiciones", posicionesSorloth);
+        jugadores.add(jugador13);
+
+        // Jugador 14: Raphinha (Barcelona)
+        List<String> equiposRaphinha = new ArrayList<>();
+        equiposRaphinha.add("Vitória Guimarães");
+        equiposRaphinha.add("Sporting CP");
+        equiposRaphinha.add("Rennes");
+        equiposRaphinha.add("Leeds United");
+        equiposRaphinha.add("Barcelona");
+
+        List<String> posicionesRaphinha = new ArrayList<>();
+        posicionesRaphinha.add("Extremo Derecho");
+        posicionesRaphinha.add("Extremo Izquierdo");
+
+        Document jugador14 = new Document("nombre", "Raphinha")
+                .append("nacionalidad", "Brasil")
+                .append("edad", 28)
+                .append("equipos", equiposRaphinha)
+                .append("posiciones", posicionesRaphinha);
+        jugadores.add(jugador14);
+
+        // Jugador 15: Ayoze Pérez (Villarreal)
+        List<String> equiposAyoze = new ArrayList<>();
+        equiposAyoze.add("Tenerife");
+        equiposAyoze.add("Newcastle United");
+        equiposAyoze.add("Leicester City");
+        equiposAyoze.add("Real Betis");
+        equiposAyoze.add("Villarreal");
+
+        List<String> posicionesAyoze = new ArrayList<>();
+        posicionesAyoze.add("Delantero");
+        posicionesAyoze.add("Extremo Izquierdo");
+
+        Document jugador15 = new Document("nombre", "Ayoze Pérez")
+                .append("nacionalidad", "España")
+                .append("edad", 31)
+                .append("equipos", equiposAyoze)
+                .append("posiciones", posicionesAyoze);
+        jugadores.add(jugador15);
+
+        // Jugador 16: Javi Puado (Espanyol)
+        List<String> equiposPuado = new ArrayList<>();
+        equiposPuado.add("Espanyol");
+
+        List<String> posicionesPuado = new ArrayList<>();
+        posicionesPuado.add("Delantero");
+        posicionesPuado.add("Extremo Derecho");
+
+        Document jugador16 = new Document("nombre", "Javi Puado")
+                .append("nacionalidad", "España")
+                .append("edad", 27)
+                .append("equipos", equiposPuado)
+                .append("posiciones", posicionesPuado);
+        jugadores.add(jugador16);
+
+        // Jugador 17: Borja Mayoral (Getafe)
+        List<String> equiposMayoral = new ArrayList<>();
+        equiposMayoral.add("Real Madrid");
+        equiposMayoral.add("Levante"); // Cesión
+        equiposMayoral.add("Roma"); // Cesión
+        equiposMayoral.add("Getafe");
+
+        List<String> posicionesMayoral = new ArrayList<>();
+        posicionesMayoral.add("Delantero");
+
+        Document jugador17 = new Document("nombre", "Borja Mayoral")
+                .append("nacionalidad", "España")
+                .append("edad", 28)
+                .append("equipos", equiposMayoral)
+                .append("posiciones", posicionesMayoral);
+        jugadores.add(jugador17);
+
+        // Jugador 18: Oihan Sancet (Athletic Club)
+        List<String> equiposSancet = new ArrayList<>();
+        equiposSancet.add("Athletic Club");
+
+        List<String> posicionesSancet = new ArrayList<>();
+        posicionesSancet.add("Mediapunta");
+        posicionesSancet.add("Centrocampista");
+
+        Document jugador18 = new Document("nombre", "Oihan Sancet")
+                .append("nacionalidad", "España")
+                .append("edad", 25)
+                .append("equipos", equiposSancet)
+                .append("posiciones", posicionesSancet);
+        jugadores.add(jugador18);
+
+        // Jugador 19: Lucas Ocampos (Sevilla)
+        List<String> equiposOcampos = new ArrayList<>();
+        equiposOcampos.add("River Plate");
+        equiposOcampos.add("Monaco");
+        equiposOcampos.add("Marseille");
+        equiposOcampos.add("Sevilla");
+
+        List<String> posicionesOcampos = new ArrayList<>();
+        posicionesOcampos.add("Extremo Derecho");
+        posicionesOcampos.add("Extremo Izquierdo");
+
+        Document jugador19 = new Document("nombre", "Lucas Ocampos")
+                .append("nacionalidad", "Argentina")
+                .append("edad", 30)
+                .append("equipos", equiposOcampos)
+                .append("posiciones", posicionesOcampos);
+        jugadores.add(jugador19);
+
+        // Jugador 20: Ante Budimir (Osasuna)
+        List<String> equiposBudimir = new ArrayList<>();
+        equiposBudimir.add("Celta");
+        equiposBudimir.add("Mallorca");
+        equiposBudimir.add("Osasuna");
+
+        List<String> posicionesBudimir = new ArrayList<>();
+        posicionesBudimir.add("Delantero");
+
+        Document jugador20 = new Document("nombre", "Ante Budimir")
+                .append("nacionalidad", "Croacia")
+                .append("edad", 33)
+                .append("equipos", equiposBudimir)
+                .append("posiciones", posicionesBudimir);
+        jugadores.add(jugador20);
+        
+     // Jugador 21: Kike García (Alavés)
+        List<String> equiposKikeGarcia = new ArrayList<>();
+        equiposKikeGarcia.add("Eibar");
+        equiposKikeGarcia.add("Alavés");
+
+        List<String> posicionesKikeGarcia = new ArrayList<>();
+        posicionesKikeGarcia.add("Delantero");
+
+        Document jugador21 = new Document("nombre", "Kike García")
+                .append("nacionalidad", "España")
+                .append("edad", 35)
+                .append("equipos", equiposKikeGarcia)
+                .append("posiciones", posicionesKikeGarcia);
+        jugadores.add(jugador21);
+
+        // Jugador 22: Johnny Cardoso (Real Betis)
+        List<String> equiposCardoso = new ArrayList<>();
+        equiposCardoso.add("Internacional");
+        equiposCardoso.add("Real Betis");
+
+        List<String> posicionesCardoso = new ArrayList<>();
+        posicionesCardoso.add("Centrocampista Defensivo");
+
+        Document jugador22 = new Document("nombre", "Johnny Cardoso")
+                .append("nacionalidad", "Estados Unidos")
+                .append("edad", 23)
+                .append("equipos", equiposCardoso)
+                .append("posiciones", posicionesCardoso);
+        jugadores.add(jugador22);
+
+        // Jugador 23: Sandro Ramírez (Las Palmas)
+        List<String> equiposSandro = new ArrayList<>();
+        equiposSandro.add("Barcelona");
+        equiposSandro.add("Everton");
+        equiposSandro.add("Sevilla");
+        equiposSandro.add("Real Sociedad");
+        equiposSandro.add("Las Palmas");
+
+        List<String> posicionesSandro = new ArrayList<>();
+        posicionesSandro.add("Delantero");
+        posicionesSandro.add("Extremo Izquierdo");
+
+        Document jugador23 = new Document("nombre", "Sandro Ramírez")
+                .append("nacionalidad", "España")
+                .append("edad", 29)
+                .append("equipos", equiposSandro)
+                .append("posiciones", posicionesSandro);
+        jugadores.add(jugador23);
+
+        // Jugador 24: Manu Morlanes (Mallorca)
+        List<String> equiposMorlanes = new ArrayList<>();
+        equiposMorlanes.add("Villarreal");
+        equiposMorlanes.add("Espanyol"); // Cesión
+        equiposMorlanes.add("Almería"); // Cesión
+        equiposMorlanes.add("Mallorca");
+
+        List<String> posicionesMorlanes = new ArrayList<>();
+        posicionesMorlanes.add("Centrocampista");
+
+        Document jugador24 = new Document("nombre", "Manu Morlanes")
+                .append("nacionalidad", "España")
+                .append("edad", 26)
+                .append("equipos", equiposMorlanes)
+                .append("posiciones", posicionesMorlanes);
+        jugadores.add(jugador24);
+
+        // Jugador 25: Yvan Neyou (Leganés)
+        List<String> equiposNeyou = new ArrayList<>();
+        equiposNeyou.add("Braga");
+        equiposNeyou.add("Leganés");
+
+        List<String> posicionesNeyou = new ArrayList<>();
+        posicionesNeyou.add("Centrocampista Defensivo");
+
+        Document jugador25 = new Document("nombre", "Yvan Neyou")
+                .append("nacionalidad", "Camerún")
+                .append("edad", 28)
+                .append("equipos", equiposNeyou)
+                .append("posiciones", posicionesNeyou);
+        jugadores.add(jugador25);
+
+        // Jugador 26: Jorge de Frutos (Rayo Vallecano)
+        List<String> equiposDeFrutos = new ArrayList<>();
+        equiposDeFrutos.add("Real Madrid");
+        equiposDeFrutos.add("Levante");
+        equiposDeFrutos.add("Rayo Vallecano");
+
+        List<String> posicionesDeFrutos = new ArrayList<>();
+        posicionesDeFrutos.add("Extremo Derecho");
+
+        Document jugador26 = new Document("nombre", "Jorge de Frutos")
+                .append("nacionalidad", "España")
+                .append("edad", 28)
+                .append("equipos", equiposDeFrutos)
+                .append("posiciones", posicionesDeFrutos);
+        jugadores.add(jugador26);
+
+        // Jugador 27: Pepelu (Valencia)
+        List<String> equiposPepelu = new ArrayList<>();
+        equiposPepelu.add("Levante");
+        equiposPepelu.add("Valencia");
+
+        List<String> posicionesPepelu = new ArrayList<>();
+        posicionesPepelu.add("Centrocampista Defensivo");
+
+        Document jugador27 = new Document("nombre", "Pepelu")
+                .append("nacionalidad", "España")
+                .append("edad", 26)
+                .append("equipos", equiposPepelu)
+                .append("posiciones", posicionesPepelu);
+        jugadores.add(jugador27);
+
+        // Jugador 28: Raúl Moro (Valladolid)
+        List<String> equiposMoro = new ArrayList<>();
+        equiposMoro.add("Lazio");
+        equiposMoro.add("Valladolid"); // Cesión y luego traspaso
+
+        List<String> posicionesMoro = new ArrayList<>();
+        posicionesMoro.add("Extremo Izquierdo");
+        posicionesMoro.add("Delantero");
+
+        Document jugador28 = new Document("nombre", "Raúl Moro")
+                .append("nacionalidad", "España")
+                .append("edad", 22)
+                .append("equipos", equiposMoro)
+                .append("posiciones", posicionesMoro);
+        jugadores.add(jugador28);
+
+        // Jugador 29: Willy Kambwala (Villarreal)
+        List<String> equiposKambwala = new ArrayList<>();
+        equiposKambwala.add("Manchester United");
+        equiposKambwala.add("Villarreal"); // Cesión
+
+        List<String> posicionesKambwala = new ArrayList<>();
+        posicionesKambwala.add("Defensa Central");
+
+        Document jugador29 = new Document("nombre", "Willy Kambwala")
+                .append("nacionalidad", "Francia")
+                .append("edad", 20)
+                .append("equipos", equiposKambwala)
+                .append("posiciones", posicionesKambwala);
+        jugadores.add(jugador29);
+
+        // Jugador 30: Pere Milla (Espanyol)
+        List<String> equiposMilla = new ArrayList<>();
+        equiposMilla.add("Elche");
+        equiposMilla.add("Espanyol");
+
+        List<String> posicionesMilla = new ArrayList<>();
+        posicionesMilla.add("Delantero");
+        posicionesMilla.add("Extremo Izquierdo");
+
+        Document jugador30 = new Document("nombre", "Pere Milla")
+                .append("nacionalidad", "España")
+                .append("edad", 32)
+                .append("equipos", equiposMilla)
+                .append("posiciones", posicionesMilla);
+        jugadores.add(jugador30);
+
+        // Jugador 31: Unai Simón (Athletic Club)
+        List<String> equiposSimon = new ArrayList<>();
+        equiposSimon.add("Athletic Club");
+
+        List<String> posicionesSimon = new ArrayList<>();
+        posicionesSimon.add("Portero");
+
+        Document jugador31 = new Document("nombre", "Unai Simón")
+                .append("nacionalidad", "España")
+                .append("edad", 27)
+                .append("equipos", equiposSimon)
+                .append("posiciones", posicionesSimon);
+        jugadores.add(jugador31);
+
+        // Jugador 32: Federico Valverde (Real Madrid)
+        List<String> equiposValverde = new ArrayList<>();
+        equiposValverde.add("Peñarol");
+        equiposValverde.add("Real Madrid");
+
+        List<String> posicionesValverde = new ArrayList<>();
+        posicionesValverde.add("Centrocampista");
+        posicionesValverde.add("Mediapunta");
+
+        Document jugador32 = new Document("nombre", "Federico Valverde")
+                .append("nacionalidad", "Uruguay")
+                .append("edad", 26)
+                .append("equipos", equiposValverde)
+                .append("posiciones", posicionesValverde);
+        jugadores.add(jugador32);
+        
         // Creamos una lista donde a�adimos a todos los jugadores
         
         jugadores.add(jugador1);
