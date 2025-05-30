@@ -37,7 +37,7 @@ public class Ejemplo {
         posicionesMbappe.add("Delantero");
         posicionesMbappe.add("Extremo Izquierdo");
 
-        Document jugador2 = new Document("nombre", "Kylian Mbapp�")
+        Document jugador2 = new Document("nombre", "Kylian Mbappe")
                 .append("nacionalidad", "Francia")
                 .append("edad", 25)
                 .append("equipos", equiposMbappe)
